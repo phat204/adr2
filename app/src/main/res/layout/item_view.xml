@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="5dp"
+    android:layout_margin="5dp">
+
+    <!-- LinearLayout chứa tiêu đề -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title: "
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvDesLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description: "
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <!-- LinearLayout chứa mô tả -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a"/>
+
+        <TextView
+            android:id="@+id/tvDes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b"/>
+    </LinearLayout>
+
+</LinearLayout>
